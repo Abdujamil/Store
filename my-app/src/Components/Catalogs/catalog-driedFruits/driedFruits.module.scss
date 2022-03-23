@@ -1,0 +1,38 @@
+.sectionCatalogDriedfruits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.driedfruitsCards{
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  padding-bottom: 50px;
+}
+
+.headerDriedFruits{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+  align-items: center;
+  // background-color: black;
+  // color: white;
+}
+
+.headerDriedFruits h3{
+  cursor: pointer;
+  &:hover{
+    color: rgb(255, 78, 78);
+  }
+}
+
+.imageBack{
+  width: 40px;
+}
+
+.cart{
+  width: 25px;
+}

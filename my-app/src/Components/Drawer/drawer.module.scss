@@ -1,0 +1,62 @@
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  transition: opacity 0.1s ease-out, visibility 0.1s ease-out;
+}
+
+
+.drawer {
+  position: absolute;
+  width: 400px;
+  height: 100%;
+  right: 0;
+  background: #ffffff;
+  box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  // transform: translateX(100%);
+  transition: transform 0.3s ease-out;
+}
+
+.text{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text svg{
+  cursor: pointer;
+}
+
+
+.cartItem{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.items{
+  flex: 1;
+  overflow: auto;
+  margin-bottom: 40px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  background: #ffffff;
+  box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  transition: transform 0.3s ease-out;
+
+}
+
+.itemImage{
+  width: 100%;
+  text-align: left;
+}

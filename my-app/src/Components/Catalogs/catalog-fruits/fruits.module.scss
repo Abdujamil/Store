@@ -1,0 +1,34 @@
+.sectionCatalogFruits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fruitsCards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 25px;
+  padding-bottom: 50px;
+}
+
+.headerFruits{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+  align-items: center;
+      // background-color: black;
+      // color: white;
+}
+
+.imageBack{
+  width: 40px;
+}
+
+.cart{
+  width: 25px;
+}
+
+.fruitsBlock{
+  min-height: 90vh;
+}

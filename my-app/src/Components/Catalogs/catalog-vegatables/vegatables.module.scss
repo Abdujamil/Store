@@ -1,0 +1,38 @@
+.sectionCatalogVegatables {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.vegatablesCards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 25px;
+  padding-bottom: 50px;
+}
+
+.headerVegatables{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+  align-items: center;
+  // background-color: black;
+  // color: white;
+}
+
+.headerVegatables h3{
+  cursor: pointer;
+  &:hover{
+    color: rgb(255, 78, 78);
+  }
+}
+
+.imageBack{
+  width: 40px;
+}
+
+
+.cart{
+  width: 25px;
+}
